@@ -5,7 +5,7 @@ puts "----------"
 
 # Your code goes below here ...
 Store.create(
-  name: 'Burnby',
+  name: 'Burnaby',
   annual_revenue: 300000,
   mens_apparel: true,
   womens_apparel: true
