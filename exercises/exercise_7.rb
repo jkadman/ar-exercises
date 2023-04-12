@@ -9,9 +9,9 @@ require_relative './exercise_6'
 puts "Exercise 7"
 puts "----------"
 
-# Your code goes here ...
+puts "please enter a new store name"
+store_name = gets.chomp
+new_store = Store.create(name: store_name, annual_revenue: 60, womens_apparel: true)
 
-@store_name = gets.chomp
-Store.create(name: @store_name)
+puts new_store.errors.full_messages
 
-puts @store_name.errors.full_messages
